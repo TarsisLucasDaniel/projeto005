@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+body{
+    background-image: url(imagens/imagem-de-fundo.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+:root{
+    --cor1:#EF6C24;
+    --cor2:#BA4E1F;
+    --cor3:#743615;
+    --cor4:#30231D;
+    --cor5:#1A1817;
+    --fonte-padrao:arial, helvetica, sans-serif;
+    --fonte-destaque:;
+    --fonte-titulo:"Bebas Neue", sans-serif;
+}
+
+#cabeçalho{
+    background-color: rgba(0, 0, 0, 0.589);
+    min-height: 100px;
+    text-align: left;
+    padding-top: 40px;
+    
+}
+
+#titulo-cabeçalho{
+    font-family:var(--fonte-titulo);
+    letter-spacing: 7px;
+    color: white;
+}
