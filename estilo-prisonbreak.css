@@ -27,8 +27,13 @@ body{
 #cabeçalho{
     background-color: rgba(0, 0, 0, 0.589);
     min-height: 100px;
-    text-align: left;
-    padding-top: 40px;
+    max-width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+
+
     
 }
 
@@ -36,4 +41,6 @@ body{
     font-family:var(--fonte-titulo);
     letter-spacing: 7px;
     color: white;
+    font-size: 4em;
+    text-align: center;
 }
