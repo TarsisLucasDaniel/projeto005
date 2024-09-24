@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+ 
 *{
     margin: 0%;
     padding:0%;
 }
 
 body{
-    background-image: url(imagens/imagem-de-fundo.jpeg);
+    background-image:url(imagens/imagem-de-fundo.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 :root{
@@ -20,27 +21,108 @@ body{
     --cor4:#30231D;
     --cor5:#1A1817;
     --fonte-padrao:arial, helvetica, sans-serif;
-    --fonte-destaque:;
-    --fonte-titulo:"Bebas Neue", sans-serif;
+    --fonte-paragrafo:"Rubik", sans-serif;
+    --fonte-titulo:"Anton", sans-serif;
 }
 
 #cabeçalho{
-    background-color: rgba(0, 0, 0, 0.589);
-    min-height: 100px;
+    min-height: 50px;
     max-width: 600px;
+    min-width: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 30px;
-    margin-top: 50px;
-
-
-    
+    margin-top: 15px;
+    margin-right: 150px;
+    border-radius: 7px;
 }
 
 #titulo-cabeçalho{
     font-family:var(--fonte-titulo);
     letter-spacing: 7px;
-    color: white;
-    font-size: 4em;
+    color: #ffffff;
+    font-size: 7.5vw;
     text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 7px;
+    font-weight: normal;
 }
+
+main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(0, 0, 0),transparent);
+}
+
+#primeiro-section{
+    max-width:100%;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+#segundo-section{
+    max-width:600px;
+    min-width: 100px;
+    margin-left: 40px;
+    margin-right: 250px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+#terceiro-section{
+    max-width:600px;
+    min-width: 100px;
+    margin-left: 750px;
+    margin-right: 40px;
+    margin-top: -187px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+}
+
+#paragrafo-primeiro-section{
+    letter-spacing: 2px;
+    text-indent: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    text-align: justify;
+    font-family: var(--fonte-paragrafo);
+    font-size:2.8vw ;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#paragrafo-segundo-section{
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #e4ded7;
+    font-family: var(--fonte-paragrafo);
+    font-size:1.3em;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#paragrafo-terceiro-section{
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #e4ded7;
+    font-family: var(--fonte-paragrafo);
+    font-size:1.3em;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
