@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
  
 *{
     margin: 0%;
@@ -7,7 +7,7 @@
 
 body{
     background-image:url(imagens/imagem-de-fundo.jpeg);
-    background-position: center center;
+    background-position:  left  top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,7 +21,7 @@ body{
     --cor4:#30231D;
     --cor5:#1A1817;
     --fonte-padrao:arial, helvetica, sans-serif;
-    --fonte-paragrafo:"Rubik", sans-serif;
+    --fonte-paragrafo:"Fira Sans", sans-serif;
     --fonte-titulo:"Anton", sans-serif;
 }
 
@@ -43,7 +43,7 @@ body{
     color: #ffffff;
     font-size: 7.5vw;
     text-align: center;
-    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
     padding-left: 10px;
     padding-right: 15px;
     margin-left: 15px;
@@ -52,77 +52,107 @@ body{
     font-weight: normal;
 }
 
-main{
+#div-1{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 40px;
+    margin-right:30px ;
+    margin-top:-35px ;
+    margin-bottom: 90px;
+}
+
+#div-2{
+    background-color: rgba(0, 0, 0, 0.411);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 50px;
+    min-height: 40px;
+    margin-left: 40px;
+}
+
+#div-3{
     width: 100%;
-    background-image: linear-gradient(to top, rgb(0, 0, 0),transparent);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#span-anos{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-paragrafo);
+    font-size: 14px;
+    margin-left:5px ;
+    margin-right: 10px;
+}
+
+#span-temporada{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-paragrafo);
+    font-size: 14px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+}
+
+#span-drama{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-paragrafo);
+    font-size: 14px;
+    margin-right: 1px;
+    
+}
+
+#sapn-suspense{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-paragrafo);
+    font-size: 14px;
+    margin-right: 1px;
+}
+
+#span-crime{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-paragrafo);
+    font-size: 14px;
+    margin-right: 1px;
 }
 
 #primeiro-section{
-    max-width:100%;
+    max-width:600px;
     min-width: 300px;
-    background-color: rgba(0, 0, 0, 0.507);
-}
-
-#segundo-section{
-    max-width:600px;
-    min-width: 100px;
+    max-height: 400px;
+    min-height: 150px;
     margin-left: 40px;
-    margin-right: 250px;
-    margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
-}
-
-#terceiro-section{
-    max-width:600px;
-    min-width: 100px;
-    margin-left: 750px;
-    margin-right: 40px;
-    margin-top: -187px;
-    background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
+    margin-right: 200px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.822);
 }
 
 #paragrafo-primeiro-section{
-    letter-spacing: 2px;
-    text-indent: 25px;
+    letter-spacing: 1px;
+    text-indent: 15px;
     color: #ffffff;
-    text-shadow: 2px 2px 0px rgb(0, 0, 0);
-    text-align: justify;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
     font-family: var(--fonte-paragrafo);
-    font-size:2.8vw ;
-    font-weight: normal;
+    font-size:1.2em ;
+    font-weight: 200;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    line-height: 30px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 
-#paragrafo-segundo-section{
-    letter-spacing: 1px;
-    line-height: 28px;
-    color: #e4ded7;
-    font-family: var(--fonte-paragrafo);
-    font-size:1.3em;
-    font-weight: normal;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
-#paragrafo-terceiro-section{
-    letter-spacing: 1px;
-    line-height: 28px;
-    color: #e4ded7;
-    font-family: var(--fonte-paragrafo);
-    font-size:1.3em;
-    font-weight: normal;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
