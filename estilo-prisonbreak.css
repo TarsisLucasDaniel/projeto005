@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
  
 *{
     margin: 0%;
@@ -23,6 +23,11 @@ body{
     --fonte-padrao:arial, helvetica, sans-serif;
     --fonte-paragrafo:"Fira Sans", sans-serif;
     --fonte-titulo:"Anton", sans-serif;
+    --fonte-titulo-dois:"Bebas Neue", sans-serif;
+}
+
+main{
+    position: relative;
 }
 
 #cabeçalho{
@@ -41,7 +46,7 @@ body{
     font-family:var(--fonte-titulo);
     letter-spacing: 7px;
     color: #ffffff;
-    font-size: 7.5vw;
+    font-size: 8vw;
     text-align: center;
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
     padding-left: 10px;
@@ -54,9 +59,9 @@ body{
 
 #div-1{
     background-color: rgba(0, 0, 0, 0);
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right:30px ;
-    margin-top:-35px ;
+    margin-top:-25px ;
     margin-bottom: 90px;
 }
 
@@ -64,16 +69,16 @@ body{
     background-color: rgba(0, 0, 0, 0.411);
     box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
     max-width: 200px;
-    min-width: 200px;
-    max-height: 50px;
+    min-width: 100px;
+    max-height: 40px;
     min-height: 40px;
     margin-left: 40px;
+    padding-bottom: 1px;
+    padding-top: 3px;
 }
 
 #div-3{
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     margin: auto;
     text-align: center;
 }
@@ -105,7 +110,6 @@ body{
     font-family: var(--fonte-paragrafo);
     font-size: 14px;
     margin-right: 1px;
-    
 }
 
 #sapn-suspense{
@@ -128,9 +132,7 @@ body{
 
 #primeiro-section{
     max-width:600px;
-    min-width: 300px;
-    max-height: 400px;
-    min-height: 150px;
+    min-width: 100px;
     margin-left: 40px;
     margin-right: 200px;
     border-radius: 5px;
@@ -147,12 +149,60 @@ body{
     font-weight: 200;
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 30px;
+    line-height: 25px;
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
+#div-detalhes{
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.836);
+    max-width: 800px;
+    min-width: 140px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: -325px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#titulo-detalhes{
+    background-color: #1a1d29a8;
+    margin: -10px -15px 0px -15px;
+    font-family: var(--fonte-titulo-dois);
+    font-size: 3.2vw;
+    font-weight: normal;
+    padding: 10px;
+    box-shadow: 0px 2px 0px 0px  rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px black;
+    color:#C0C0C0;
+    letter-spacing: 2px;
+    border-radius: 7px;
+}
+
+#sub-titulo-detalhes{
+    color: rgba(255, 255, 255, 0.842);
+    font-family: var(--fonte-paragrafo);
+    font-weight: 500;
+    font-size: 2vw;
+    margin-left: -10px;
+    padding: 10px;
+}
+
+#paragrafo-detalhes{
+    font-family: var(--fonte-paragrafo);
+    font-weight: 400;
+    text-indent: 7px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.733);
+    font-size:1.6vi;
+}
 
 
