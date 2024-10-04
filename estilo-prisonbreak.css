@@ -137,9 +137,10 @@ main{
     min-width: 100px;
     margin-left: 40px;
     margin-top: -40px;
-    margin-right: 200px;
+    margin-right: 220px;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.822);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.37);
 }
 
 #paragrafo-primeiro-section{
@@ -159,6 +160,7 @@ main{
 }
 
 #div-detalhes{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.37);
     border-radius: 7px;
     position: absolute;
     left: 50%;
@@ -227,8 +229,57 @@ main{
     color: white;
     font-weight: 500;
     font-size: 1.4vw;
-    margin-left: 10px;
-    margin-right: 30px;
+    margin-left: 6px;
+    margin-top: -2px;
 }
+
+#caixa-lançamento{
+    max-width: 170px;
+    min-width: 20px;
+    margin-top: 0px;
+    
+}
+
+#caixa-data-lançamento{
+    font-family:var(--fonte-sub-titulos) ;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: normal;
+    font-size: 1.3vw;
+    margin-left: 5px;
+}
+
+#caixa-anos{
+    font-family:var(--font-numeros-um);
+    color: white;
+    font-weight: 500;
+    font-size: 1.4vw;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+#caixa-generos{
+    max-width: 90px;
+    min-width: 20px;
+    margin-top: 30px;
+}
+
+#caixa-titlo-generos{
+    font-family:var(--fonte-sub-titulos) ;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: normal;
+    font-size: 1.5vw;
+    margin-left: 5px;
+}
+
+#caixa-texto-generos{
+    font-family:var(--font-numeros-um);
+    color: white;
+    font-weight: 500;
+    font-size: 1.4vw;
+    margin-left: 6px;
+    margin-top: -2px;
+}
+
+cur
 
 
