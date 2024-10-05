@@ -168,14 +168,13 @@ main{
     background-color: rgba(0, 0, 0, 0.836);
     max-width: 800px;
     min-width: 140px;
-    margin-left: 70px;
+    margin-left: 65px;
     margin-right: 50px;
-    margin-top: -290px;
+    margin-top: -280px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-   
 }
 
 #titulo-detalhes{
@@ -211,6 +210,12 @@ main{
     font-size:1.6vi;
 }
 
+#div-sub-detalhes{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
 #caixa-duracao-minutos{
     max-width: 90px;
     min-width: 20px;
@@ -234,12 +239,6 @@ main{
     margin-top: -2px;
 }
 
-#caixa-lançamento{
-    max-width: 170px;
-    min-width: 20px;
-    margin-top: 0px;
-}
-
 #caixa-data-lançamento{
     font-family:var(--fonte-sub-titulos) ;
     color: rgba(255, 255, 255, 0.822);
@@ -256,19 +255,17 @@ main{
     margin-left: 6px;
     margin-top: -2px;
 }
-
-#caixa-generos{
-    max-width: 240px;
-    min-height: 110px;
-    max-height: 110px;
-    margin-top: 30px;
-    font-family:var(--font-numeros-um);
-    color: white;
-    font-weight: 500;
+#span-genero{
+    right: 20px;
+    top: 4px;
+    position: absolute;
+    font-family:var(--fonte-sub-titulos) ;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: normal;
     font-size: 1.4vw;
-    margin-top: -0px;
-    margin-left: 5px;
 }
+
+
 
 
 
