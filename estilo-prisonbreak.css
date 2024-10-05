@@ -175,6 +175,7 @@ main{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+   
 }
 
 #titulo-detalhes{
@@ -237,7 +238,6 @@ main{
     max-width: 170px;
     min-width: 20px;
     margin-top: 0px;
-    
 }
 
 #caixa-data-lançamento{
@@ -258,28 +258,20 @@ main{
 }
 
 #caixa-generos{
-    max-width: 90px;
-    min-width: 20px;
+    max-width: 240px;
+    min-height: 110px;
+    max-height: 110px;
     margin-top: 30px;
-}
-
-#caixa-titlo-generos{
-    font-family:var(--fonte-sub-titulos) ;
-    color: rgba(255, 255, 255, 0.822);
-    font-weight: normal;
-    font-size: 1.5vw;
-    margin-left: 5px;
-}
-
-#caixa-texto-generos{
     font-family:var(--font-numeros-um);
     color: white;
     font-weight: 500;
     font-size: 1.4vw;
-    margin-left: 6px;
-    margin-top: -2px;
+    margin-top: -0px;
+    margin-left: 5px;
 }
 
-cur
+
+
+
 
 
