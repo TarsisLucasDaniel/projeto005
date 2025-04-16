@@ -1,0 +1,526 @@
+@charset "UTF-8"; @import url(estilos/fonts.css);
+
+:root{
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-sub-valor:"Quicksand", serif;
+    --font-valor-notebok:"Roboto Slab", serif;
+}
+
+@media print{
+    html{
+        display: none;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    header > h1{
+        font-size: 4em;
+    }
+
+    header > p{
+        font-size: 1.3em;
+    }
+
+    nav > #container-links {
+        display: flex;
+        margin-left: 5px;
+    }
+
+    #container-links > a{
+        margin-right: 15px;
+    }
+
+    #container-dois-links{
+        display: flex;
+        margin-right: 10px;
+    }
+
+    #container-dois-links > a{
+        margin-right: 18px;
+    }
+
+    #sessao-propaganda-0{
+        margin-left: -10px;
+        margin-right:-10px ;
+    }
+
+    .nome-monitor{
+        font-size: 17px;
+    }
+
+    .caixa-detalhes-monitores-gamers{
+        display: block;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;  
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding-top: 10px;
+        padding-bottom: 17px;
+        padding-left: 5px;
+    }
+
+    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
+        margin-bottom: -10px;
+        color: black;
+        font-family:var(--font-links);
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .paragrafos-elementos-monitor > strong{
+        color: black;
+        font-weight: 500;
+    }
+
+    .caixa-valores-monitor > .h2-valor-anterior{
+        font-size: 18px;
+    }
+
+    .caixa-valores-monitor > .h1-valor-atual{
+        font-size: 23px;
+    }
+
+    .caixa-valores-monitor > .p-descontos{
+        text-align: justify;
+        font-size: 12px;
+    } 
+
+    .caixa-descrição-monitor-predator{
+        border: 4px solid #99E96A;
+        box-shadow: 0px 1px 5px black ;
+    }
+
+    .caixa-descrição-monitor-predator:hover{
+        border: 4px solid #99E96A;
+    }
+
+    .caixa-descrição-monitor-nitro{
+        border: 4px solid #99E96A;
+        box-shadow: 0px 1px 5px black ;
+    }
+
+    .caixa-descrição-monitor-nitro:hover{
+        border: 4px solid #99E96A;
+    }
+
+    .caixa-descrição-monitor-nitro-27{
+        border: 4px solid #99E96A;
+        box-shadow: 0px 1px 5px black ;
+    }
+
+    .caixa-descrição-monitor-nitro-27:hover{
+        border: 4px solid #99E96A;
+    }
+
+    .caixa-descrição-monitor-nitro-31-5{
+       border: 4px solid #99E96A;
+       box-shadow: 0px 1px 5px black ;
+    }
+
+    .caixa-descrição-monitor-nitro-31-5:hover{
+        border: 4px solid #99E96A;
+    }
+
+    .caixa-descrição-Monitor-Gamer-Predator-57-1{
+        border: 4px solid #99E96A;
+        box-shadow: 0px 1px 5px black ;
+    }
+
+    .caixa-descrição-Monitor-Gamer-Predator-57-1:hover{
+        border: 4px solid #99E96A;
+    }
+
+    .caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8{
+        border: 4px solid #99E96A;
+        box-shadow: 0px 1px 5px black ;
+    }
+
+    .caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8:hover{
+        border: 4px solid #99E96A;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1400px) {
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    header > h1{
+        font-size: 5em;
+    } 
+
+    header > p{
+        font-size: 20px;
+    }
+
+    nav > #container-links {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    #container-links > a{
+        margin-right: 15px;
+    }
+
+    nav > #container-dois-links{
+        display: flex;
+        margin-right: -2px;
+    }
+
+    #container-dois-links > a{
+        margin: 5px;
+        font-size: 1.1em;
+        color: #ffffff; 
+        text-decoration: none;
+        position: relative;
+        padding: 8px 5px;
+        border-radius: 6px;
+        font-weight: normal;
+        transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    #container-dois-links > a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0%;
+        height: 2px;
+        background-color: #00e676; 
+        transition: width 0.3s ease;
+    }
+    
+    #container-dois-links > a:hover {
+        color: #00e676; 
+        background-color: rgba(0, 230, 118, 0.2); 
+        transform: translateY(-3px); 
+    }
+    
+    #container-dois-links > a:hover::after {
+        width: 100%; 
+    }
+
+    #sessao-propaganda-0{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    #sessao-1 > #sessao-1-titulo{
+        font-size: 2.3em;
+    }
+
+    #sessao-1 > #sessao-1-sub-titulo{
+        font-size: 1.2em;
+    }
+
+    #sessao-1 > #titulo-acer-i5{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook > #paragrafo-caixa-descrição-notebook{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook > #h2-titulo-valor-descrição{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook > #h1-titulo-valor-descrição{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-gamer-nitro{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-nitro > #paragrafo-caixa-descrição-notebook-acer-nitro{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro > #h2-titulo-valor-descrição-acer-nitro{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro > #h1-titulo-valor-descrição-acer-nitro{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-predator-horios{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-predator-helios > #paragrafo-caixa-descrição-notebook-acer-predator{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-predator > #h2-titulo-valor-descrição-acer-predator{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-predator > #h1-titulo-valor-acer-predator{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-nitro-16{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-nitro-16 > #paragrafo-caixa-descrição-notebook-acer-nitro-16{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-16 > #h2-titulo-valor-descrição-acer-nitro-16{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-16 > #h1-titulo-valor-acer-nitro-16{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-nitro-17{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-acer-nitro-17 > #paragrafo-caixa-descrição-notebook-acer-nitro-17{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-17 > #h2-titulo-valor-descrição-acer-nitro-17{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-acer-nitro-17 > #h1-titulo-valor-acer-nitro-17{
+        font-size: 25px;
+    }
+
+    #sessao-1 > #titulo-acer-predator-triton{
+        font-size: 1.7em;
+    }
+
+    #caixa-descrição-notebook-predator-Triton > #paragrafo-caixa-descrição-notebook-predator-Triton{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    #caixa-valor-descrição-notebook-predator-Triton > #h2-titulo-valor-descrição-predator-Triton{
+        font-size: 18px;
+    }
+
+    #caixa-valor-descrição-notebook-predator-Triton > #h1-titulo-valor-acer-predator-Triton{
+        font-size: 25px;
+    }
+
+    #sessao-notebooks-dia-a-dia{
+        margin-left: -10px;
+        margin-right: -10px;
+        border: 1px solid black;
+    }
+
+    #sessao-notebooks-dia-a-dia > #sessao-titulo-note-dia-dia{
+        font-size: 2.7em;
+        letter-spacing: 1px;
+    }
+
+    #sessao-notebooks-dia-a-dia > #sessao-sub-titulo-note-dia-dia{
+        font-size: 1.3em;
+    }
+
+    #sessao-notebooks-dia-a-dia > .titulos-notebooks-dia-dia{
+        font-size: 1.5em;
+        color: black;
+        text-shadow: 1px 1px 1px green;
+    }
+
+    #sessao-notebooks-dia-a-dia > .titulos-modelos{
+        font-size: 1.1em;
+        text-shadow: 1px 1px 1px white;
+    }
+
+    .caixa-descrição-notebooks-dia-dia > .descrição-notebooks-dia-dia{
+        font-size: 1.1em;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia{
+        width: 240px;
+        margin-left: 11px;
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .h2-titulo-valor-descrição-note-dia-a-dia{
+        font-size: 20px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .h1-titulo-valor-acer-dia-a-dia{
+        font-size: 26px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .p-paragrafo-valor-descrição-dia-a-dia{
+        font-size: 16px;
+    }
+
+    #propaganda-numero-um > #titulo-propagando-um{
+        font-size: 3.4em;
+    }
+
+    #propaganda-numero-um > #sub-titulo-propaganda-um{
+        font-size: 1.7em;
+        margin-top: -15px;
+        text-indent: 34px;
+    }
+
+    #caixa-propaganda-monitores > #caixa-propaganda-monitores-titulo-h1{
+        font-size: 3em;
+    }
+
+    #caixa-propaganda-monitores > #caixa-propaganda-monitores-sub-titulo-h2{
+        font-size: 1.4em;
+    }
+
+    #container-monitores-gamers > .titulo-monitores-gamers{
+        font-size: 2.5em;
+        margin-left: 20px;
+    }
+
+    #container-monitores-gamers > .sub-titulo-monitores-gamers{
+        font-size: 1.3em;
+        margin-left: 20px;
+    }
+
+    .nome-monitor{
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+
+    .modelo-notebook{
+        font-size: 1.1em;
+    }
+
+    .caixa-detalhes-monitores-gamers{
+        display: block;
+        margin-top: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        padding-right: 7px;
+    }
+
+    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: 300;
+        font-family:var(--font-links);
+        text-align: justify;
+        line-height: 10px;
+    }
+
+    .paragrafos-elementos-monitor > strong{
+        color: black;
+        font-weight: 500;
+    }
+
+    .caixa-descrição-monitor-predator{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-nitro{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-nitro-27{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-nitro-31-5{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-Monitor-Gamer-Predator-57-1{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    #img-z{
+        border-radius: 50%;
+    }
+
+    .caixa-valores-monitor{
+        display: block;
+        text-align: justify;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+
+    .caixa-valores-monitor > .h2-valor-anterior{
+           font-size: 1.3em;
+    }
+
+    .caixa-valores-monitor > .h1-valor-atual{
+        font-size: 1.8em;
+        margin-top: -5px;
+    }
+
+    .caixa-valores-monitor > .p-descontos{
+        font-size: 1em; 
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+    body{
+        font-family: sans-serif;
+        background-image: none;
+        background-color: #054902;
+    }
+}
+

@@ -1,0 +1,93 @@
+@import url(estilos/fonts.css); 
+
+:root{
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-sub-valor:"Quicksand", serif;
+    --font-valor-notebok:"Roboto Slab", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#titulo-acer-predator-triton{
+    margin-left:-10px ;
+    margin-right: -10px;
+    background-color: #cacaca;
+    padding-top: 10px;
+    font-family: var(--fonte-titulo-notebook);
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    text-shadow: 1px 1px 2px white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#sessao-7{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #cacaca;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+#caixa-descrição-notebook-predator-Triton{
+    background-color: #CACACA;
+    margin-left:-10px ;
+    margin-right: -10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#paragrafo-caixa-descrição-notebook-predator-Triton{
+    color: rgb(41, 41, 41);
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 10px;
+    padding-bottom: 10px;
+    font-family: var(--fonte-sub-titulo);
+    line-height: 20px;
+}
+
+#caixa-valor-descrição-notebook-predator-Triton{
+    margin-top: -10px;
+    padding: 10px;
+    background-color: #CACACA;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#h2-titulo-valor-descrição-predator-Triton{
+    color: #6b6b6b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    text-decoration: line-through;
+}
+
+#h1-titulo-valor-acer-predator-Triton{
+    margin-top: -6px;
+    color: rgb(0, 0, 0);
+    font-size:1.4em ;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+#p-paragrafo-valor-descrição-predator-Triton{
+    font-size: 13px;
+    padding-top: 1px;
+    font-family: var(--fonte-sub-valor);
+}

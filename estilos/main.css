@@ -1,0 +1,198 @@
+@import url(estilos/fonts.css); 
+
+:root{
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-sub-valor:"Quicksand", serif;
+    --font-valor-notebok:"Roboto Slab", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    background-color: #f7c33436;
+    max-width: 950px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+
+main > #sessao-1{
+    background-color: #DFDEDE;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
+    margin-bottom: 25px;
+}
+
+#sessao-1-titulo{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: var(--fonte-sub-titulo);
+    color: #000000;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    text-align: left;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    cursor:  context-menu;
+}
+
+#sessao-1-sub-titulo{
+    color: #000000b9;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
+    font-size: 1em;
+    font-weight: normal;
+    font-family: var(--fonte-sub-titulo);
+    padding-bottom: 25px;
+    padding-left: 13px;
+    margin-top: -4px;
+}
+
+#sessao-2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #cacaca;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+.caixa-divisão-noteboks-gamers{
+    width: 100%;
+    height:10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-top:10px;
+    background-color:#CACACA;
+}
+
+.caixa-divisão-noteboks-gamers-2{
+    width: 100%;
+    height:10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-top:10px;
+    background-color:#DFDEDE ;
+}
+
+.caixa-img-1{
+    max-width: 260px;
+    margin-left: 20px;
+}
+
+.caixa-img-2{
+    max-width: 260px;
+    margin-right: 20px;
+}
+
+.caixa-img-1 > img{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+.caixa-img-1 > img.pequena{
+    max-width: 125px;
+    display: block;
+    margin: auto;
+}
+
+.caixa-img-2 > img{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+.caixa-img-2 > img.pequena{
+    max-width: 125px;
+    display: block;
+    margin: auto;
+}
+
+#titulo-acer-i5{
+    margin-left:-10px ;
+    margin-right: -10px;
+    background-color: #cacaca;
+    padding-top: 10px;
+    font-family: var(--fonte-titulo-notebook);
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    text-shadow: 1px 1px 2px white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#caixa-descrição-notebook{
+    background-color: #CACACA;
+    margin-left:-10px ;
+    margin-right: -10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#paragrafo-caixa-descrição-notebook{
+    color: rgb(41, 41, 41);
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 10px;
+    padding-bottom: 10px;
+    font-family: var(--fonte-sub-titulo);
+    line-height: 20px;
+}
+
+#caixa-valor-descrição-notebook{
+    margin-top: -10px;
+    padding: 10px;
+    background-color: #CACACA;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#h2-titulo-valor-descrição{
+    color: #6b6b6b;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    text-decoration: line-through;
+}
+
+#h1-titulo-valor-descrição{
+    margin-top: -6px;
+    color: rgb(0, 0, 0);
+    font-size:1.4em ;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+#p-paragrafo-valor-descrição{
+    font-size: 13px;
+    padding-top: 1px;
+    font-family: var(--fonte-sub-valor);
+}
+
+
+
+
+
+

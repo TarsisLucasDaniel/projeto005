@@ -1,0 +1,316 @@
+@import url(estilos/fonts.css); 
+
+:root{
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
+    --fonte-titulo:"Exo 2", serif;
+    --fonte-sub-titulo:"Host Grotesk", serif;
+    --font-links:"Kanit", serif;
+    --fonte-titulo-notebook: "Ysabeau SC", serif;
+    --fonte-sub-valor:"Quicksand", serif;
+    --font-valor-notebok:"Roboto Slab", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.divisão-propaganda{
+    width: 100%;
+    height:10px;
+    margin-left: -10px;
+    padding-right: 20px;
+    padding-top:10px;
+    background-color:#23a8234f;
+}
+
+#sessao-propaganda-0{
+    background-color: #f7c33436;
+    text-align: center;
+}
+
+#sessao-propaganda{
+    background-color: #f7c33436;
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+#propaganda-numero-um{
+    background-color: #3bca1f;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+
+#titulo-propagando-um{
+    padding-top: 5px;
+    font-family: var(--font-links) ;
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.582);
+    text-align: left;
+    text-indent: 20px;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    cursor: context-menu;
+}
+
+#sub-titulo-propaganda-um{
+    font-family: var(--fonte-sub-titulo);
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #ffffff;
+    margin-top: -7px;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-indent: 30px;
+    padding-bottom: 10px;
+}
+
+.propaganda-acer-seguro-grande{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+#img-propaganda-um{
+    cursor: pointer;
+    max-height: 500px;
+}
+
+#img-propaganda-dois{
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+}
+
+#caixa-propaganda-monitores{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #3acc1d, #31a31a69, transparent );
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#caixa-propaganda-monitores-titulo-h1{
+    color: white;
+    cursor:  context-menu;
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    font-size: 2.7em;
+    text-shadow: 2px 2px 0px black;
+    text-align: center;
+}
+
+#caixa-propaganda-monitores-sub-titulo-h2{
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0px rgb(0, 0, 0);
+    font-family: var(--fonte-sub-titulo);
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#container-monitores-gamers{
+    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), #31310B);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: -9px;
+}
+
+#container-monitores-gamers > .titulo-monitores-gamers{
+    color:rgb(255, 255, 255) ;
+    letter-spacing: 1px;
+    font-family:var(--fonte-sub-valor);
+    font-size:2em;
+    text-align: left;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+    text-indent: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#container-monitores-gamers > .sub-titulo-monitores-gamers{
+    font-family: var(--fonte-sub-valor);
+    font-size: 16.5px;
+    font-weight: 600;
+    color: #ececec;
+    text-shadow: 1px 1px 1px black;
+    text-indent: 40px;
+    margin-top: -5px;
+}
+
+.container-descrição-monitores{
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(5, 202, 5), rgb(0, 119, 0), #31310B);
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.caixa-descrição-monitor-predator{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border: 3px solid white;
+}
+
+.caixa-descrição-monitor-predator:hover{
+    border: 3px solid black;
+}
+
+.modelo-notebook{
+    color: rgb(105, 105, 105);
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.modelo-notebook > strong{
+    color: black;
+    font-size: 13px;
+}
+
+.nome-monitor{
+    font-weight: bold;
+    font-family: var(--fonte-titulo);
+    font-size: 15px;
+    color: black;
+    word-wrap: break-word;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.caixa-descrição-monitor-nitro{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-monitor-nitro:hover{
+    border: 3px solid #000000;
+}
+
+.caixa-descrição-monitor-nitro-27{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border: 3px solid white;
+}
+
+.caixa-descrição-monitor-nitro-27:hover{
+    border: 3px solid #000000;
+}
+
+.caixa-descrição-monitor-nitro-31-5{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-monitor-nitro-31-5:hover{
+    border: 3px solid #000000;
+}
+
+.caixa-descrição-Monitor-Gamer-Predator-57-1{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-left: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-Monitor-Gamer-Predator-57-1:hover{
+    border: 3px solid #000000;
+}
+
+.caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8:hover{
+    border: 3px solid #000000;
+}
+
+.h1-valor-atual{
+    text-shadow: 1px 1px 0px white;
+    font-size: 20px;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+
+.h2-valor-anterior{
+    color: #858585;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.p-descontos{
+    color:rgb(105, 105, 105) ;
+    font-size: 13px;
+    word-wrap: break-word;
+    line-height: 1.3;
+    margin-top:10px;
+}
+
+.caixa-preço-monitores-gamers > h2{
+    color: #858585;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
