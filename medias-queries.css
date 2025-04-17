@@ -42,12 +42,16 @@
         font-size: 1.3em;
     }
 
-    nav > #container-links {
+    .barra-pesquisa{
+        display: none;
+    }
+
+    nav > #container-links-redes-socias {
         display: flex;
         margin-left: 5px;
     }
 
-    #container-links > a{
+    #container-links-redes-socias > a{
         margin-right: 15px;
     }
 
@@ -182,13 +186,65 @@
         font-size: 20px;
     }
 
-    nav > #container-links {
+    .barra-pesquisa {
+        position: relative;
+        margin-left: 60px;
+        width: 100%;
+        max-width: 450px;
+        flex-grow: 1;
         display: flex;
-        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .barra-pesquisa input {
+        width: 100%;
+        max-width: 400px;
+        padding: 12px 16px 12px 40px;
+        font-size: 16px;
+        border: 2px solid #2e7d32; 
+        border-radius: 25px;
+        outline: none;
+        background: #e8f5e9; 
+        color: #1b5e20;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 64, 0, 0.15);
     }
 
-    #container-links > a{
-        margin-right: 15px;
+    .barra-pesquisa input::placeholder {
+        color: #388e3c;
+        opacity: 0.8;
+    }
+
+    .barra-pesquisa input:focus::placeholder {
+        visibility: hidden;
+    }
+
+    .barra-pesquisa input:hover {
+        background: #d0f0d4;
+        border-color: #43a047;
+    }
+
+    .barra-pesquisa input:focus {
+        border-color: #66bb6a;
+        box-shadow: 0 0 0 4px rgba(102, 187, 106, 0.3);
+        background: #ffffff;
+    }
+
+    .barra-pesquisa i {
+        position: absolute;
+        left: 15px;
+        color: #388e3c;
+        font-size: 16px;
+        pointer-events: none;
+    }
+
+    nav > #container-links-redes-socias {
+        display: flex;
+    }
+
+    #container-links-redes-socias > a{
+        margin: 10px;
     }
 
     nav > #container-dois-links{

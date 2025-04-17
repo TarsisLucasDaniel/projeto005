@@ -22,6 +22,7 @@
     margin: 0px;
 }
 
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
@@ -50,14 +51,18 @@ header > h1{
 }
 
 header > p{
-    color: #e6dadad7;
+    color: #d8d8d8;
     text-align: center;
     font-size: 1em;
     font-family: var(--font-h2);
     font-weight: bold;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.829);
+    text-shadow: 1px 0px 0px rgb(0, 0, 0);
     letter-spacing: 1px;
     cursor:  context-menu;
+}
+
+.barra-pesquisa{
+    display: none;
 }
 
 nav{
@@ -71,41 +76,26 @@ nav{
     position: relative;
 }
 
-#container-links{
+#container-links-redes-socias{
     display: flex;
     height: 40px;
     padding: 2px;
-    margin-left: -5px;
+    margin-left: -1px;
 }
 
-#link-icone-github{
-    margin-right: 11px;
+#container-links-redes-socias> a{
+    text-decoration: none;
+    margin: 2px;
+    margin-top: 11px;
 }
 
-#link-icone-face{
-    margin-right: 11px;
-}
-
-#link-icone-insta{
-    margin-right: 11px;
-}
-
-#link-icone-twitter{
-    margin-right: 5px;
-}
-
-#container-links > a > img {
+#container-links-redes-socias > a > img {
     border-radius: 50%;
     box-shadow: 2px 2px 10px black;
     transition-duration: 0.5s;
 }
 
-#container-links> a{
-    text-decoration: none;
-    margin-top: 12px;
-}
-
-#container-links > a > img:hover{
+#container-links-redes-socias > a > img:hover{
     transform: translate(-4px, -4px);
     box-shadow: 6px 6px 15px black;
 }
