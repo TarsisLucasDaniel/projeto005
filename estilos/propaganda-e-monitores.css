@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); 
+@import url(font-letras.css);
 
 :root{
     --cor1:#AAF277;
@@ -6,12 +6,15 @@
     --cor3:#2E8C14;
     --co03:#135908;
     --cor4:#054902;
-    --fonte-titulo:"Exo 2", serif;
-    --fonte-sub-titulo:"Host Grotesk", serif;
-    --font-links:"Kanit", serif;
-    --fonte-titulo-notebook: "Ysabeau SC", serif;
-    --fonte-sub-valor:"Quicksand", serif;
-    --font-valor-notebok:"Roboto Slab", serif;
+    --font-h1: "Overlock", sans-serif;
+    --font-h2: "Winky Rough", sans-serif;
+    --font-a: "Open Sans", sans-serif;
+    --font-titulos:"Inter", sans-serif;
+    --font-nome-notebooks:"Russo One", sans-serif;
+    --font-paragrafos:"Space Grotesk", sans-serif;
+    --font-valores-preços:"Roboto", sans-serif;
+    --font-nome-note-dia-dia:"Barlow", sans-serif;
+    --font-nome-moitores-gamers: "Rajdhani", sans-serif;
 }
 
 *{
@@ -20,12 +23,12 @@
 }
 
 .divisão-propaganda{
+    background-color:#23a8234f;
     width: 100%;
     height:10px;
     margin-left: -10px;
     padding-right: 20px;
     padding-top:10px;
-    background-color:#23a8234f;
 }
 
 #sessao-propaganda-0{
@@ -50,7 +53,7 @@
 
 #titulo-propagando-um{
     padding-top: 5px;
-    font-family: var(--font-links) ;
+    font-family: var(--font-h1);
     font-size: 2em;
     font-weight: bold;
     color: #ffffff;
@@ -63,11 +66,11 @@
 }
 
 #sub-titulo-propaganda-um{
-    font-family: var(--fonte-sub-titulo);
+    font-family: var(--font-h2);
     font-weight: normal;
     font-size: 1.1em;
     color: #ffffff;
-    margin-top: -7px;
+    margin-top: -5px;
     text-align: left;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     text-indent: 30px;
@@ -106,7 +109,7 @@ img{
 #caixa-propaganda-monitores-titulo-h1{
     color: white;
     cursor:  context-menu;
-    font-family: var(--fonte-titulo);
+    font-family: var(--font-titulos);
     font-weight: bold;
     font-size: 2.7em;
     text-shadow: 2px 2px 0px black;
@@ -117,7 +120,7 @@ img{
     color: #ffffff;
     text-align: center;
     text-shadow: 0.5px 0.5px 0px rgb(0, 0, 0);
-    font-family: var(--fonte-sub-titulo);
+    font-family: var(--font-h2);
     font-weight: normal;
     font-size: 20px;
     margin-bottom: 10px;
@@ -135,8 +138,9 @@ img{
 #container-monitores-gamers > .titulo-monitores-gamers{
     color:rgb(255, 255, 255) ;
     letter-spacing: 1px;
-    font-family:var(--fonte-sub-valor);
+    font-family:var(--font-nome-notebooks);
     font-size:2em;
+    font-weight: normal;
     text-align: left;
     text-shadow: 3px 3px 1px rgb(0, 0, 0);
     text-indent: 20px;
@@ -145,7 +149,7 @@ img{
 }
 
 #container-monitores-gamers > .sub-titulo-monitores-gamers{
-    font-family: var(--fonte-sub-valor);
+    font-family:var(--font-h2);
     font-size: 16.5px;
     font-weight: 600;
     color: #ececec;
@@ -164,20 +168,6 @@ img{
     gap: 20px;
 }
 
-.caixa-descrição-monitor-predator{
-    background-color: #FFFFFF;
-    border-radius: 5%;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    border: 3px solid white;
-}
-
-.caixa-descrição-monitor-predator:hover{
-    border: 3px solid black;
-}
-
 .modelo-notebook{
     color: rgb(105, 105, 105);
     font-size: 12px;
@@ -191,12 +181,27 @@ img{
 
 .nome-monitor{
     font-weight: bold;
-    font-family: var(--fonte-titulo);
+    font-family: var(--font-nome-moitores-gamers);
     font-size: 15px;
+    font-weight: bolder;
     color: black;
     word-wrap: break-word;
     margin-top: 5px;
     line-height: 24px;
+}
+
+.caixa-descrição-monitor-predator{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    border: 3px solid white;
+}
+
+.caixa-descrição-monitor-predator:hover{
+    border: 3px solid black;
 }
 
 .caixa-descrição-monitor-nitro{

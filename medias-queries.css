@@ -1,4 +1,4 @@
-@charset "UTF-8"; @import url(estilos/fonts.css);
+@charset "UTF-8"; @import url(estilos/font-letras.css);
 
 :root{
     --cor1:#AAF277;
@@ -6,12 +6,16 @@
     --cor3:#2E8C14;
     --co03:#135908;
     --cor4:#054902;
-    --fonte-titulo:"Exo 2", serif;
-    --fonte-sub-titulo:"Host Grotesk", serif;
-    --font-links:"Kanit", serif;
-    --fonte-titulo-notebook: "Ysabeau SC", serif;
-    --fonte-sub-valor:"Quicksand", serif;
-    --font-valor-notebok:"Roboto Slab", serif;
+    --font-h1: "Overlock", sans-serif;
+    --font-h2: "Winky Rough", sans-serif;
+    --font-a: "Open Sans", sans-serif;
+    --font-titulos:"Inter", sans-serif;
+    --font-nome-notebooks:"Russo One", sans-serif;
+    --font-paragrafos:"Space Grotesk", sans-serif;
+    --font-valores-preços:"Roboto", sans-serif;
+    --font-nome-note-dia-dia:"Barlow", sans-serif;
+    --font-nome-moitores-gamers: "Rajdhani", sans-serif;
+   
 }
 
 @media print{
@@ -195,12 +199,12 @@
     #container-dois-links > a{
         margin: 5px;
         font-size: 1.1em;
+        font-weight: normal;
         color: #ffffff; 
         text-decoration: none;
         position: relative;
         padding: 8px 5px;
         border-radius: 6px;
-        font-weight: normal;
         transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
     }
     
@@ -395,7 +399,7 @@
 
     #propaganda-numero-um > #sub-titulo-propaganda-um{
         font-size: 1.7em;
-        margin-top: -15px;
+        margin-top: -7px;
         text-indent: 34px;
     }
 
@@ -437,15 +441,15 @@
     .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
         color: rgb(0, 0, 0);
         font-size: 1em;
-        font-weight: 300;
-        font-family:var(--font-links);
+        font-weight: 400;
+        font-family:var(--font-valores-preços);
         text-align: justify;
         line-height: 10px;
     }
 
     .paragrafos-elementos-monitor > strong{
         color: black;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .caixa-descrição-monitor-predator{

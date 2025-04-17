@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); 
+@import url(font-letras.css);
 
 :root{
     --cor1:#AAF277;
@@ -6,12 +6,15 @@
     --cor3:#2E8C14;
     --co03:#135908;
     --cor4:#054902;
-    --fonte-titulo:"Exo 2", serif;
-    --fonte-sub-titulo:"Host Grotesk", serif;
-    --font-links:"Kanit", serif;
-    --fonte-titulo-notebook: "Ysabeau SC", serif;
-    --fonte-sub-valor:"Quicksand", serif;
-    --font-valor-notebok:"Roboto Slab", serif;
+    --font-h1: "Overlock", sans-serif;
+    --font-h2: "Winky Rough", sans-serif;
+    --font-a: "Open Sans", sans-serif;
+    --font-titulos:"Inter", sans-serif;
+    --font-nome-notebooks:"Russo One", sans-serif;
+    --font-paragrafos:"Space Grotesk", sans-serif;
+    --font-valores-preços:"Roboto", sans-serif;
+    --font-nome-note-dia-dia:"Barlow", sans-serif;
+    --font-nome-moitores-gamers: "Rajdhani", sans-serif;
 }
 
 *{
@@ -20,7 +23,7 @@
 }
 
 main{
-    background-color: #f7c33436;
+    background-color: #ff000036;
     max-width: 950px;
     margin: auto;
     padding: 10px;
@@ -41,13 +44,13 @@ main > #sessao-1{
 #sessao-1-titulo{
     padding-top: 5px;
     padding-left: 20px;
-    font-family: var(--fonte-sub-titulo);
+    font-family: var(--font-titulos);
+    font-weight: bold;
+    font-size: 1.8em;
     color: #000000;
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
     text-align: left;
-    font-size: 1.8em;
     letter-spacing: 1px;
-    font-weight: bold;
     margin-top: -20px;
     margin-left: -10px;
     margin-right: -10px;
@@ -62,7 +65,7 @@ main > #sessao-1{
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
     font-size: 1em;
     font-weight: normal;
-    font-family: var(--fonte-sub-titulo);
+    font-family: var(--font-h2);
     padding-bottom: 25px;
     padding-left: 13px;
     margin-top: -4px;
@@ -130,14 +133,15 @@ main > #sessao-1{
 }
 
 #titulo-acer-i5{
+    color: rgb(32, 32, 32);
     margin-left:-10px ;
     margin-right: -10px;
     background-color: #cacaca;
     padding-top: 10px;
-    font-family: var(--fonte-titulo-notebook);
+    font-family:var(--font-nome-notebooks);
     font-size: 1.5em;
+    font-weight: normal;
     text-align: center;
-    color: rgb(32, 32, 32);
     text-shadow: 1px 1px 2px white;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -154,10 +158,10 @@ main > #sessao-1{
 #paragrafo-caixa-descrição-notebook{
     color: rgb(41, 41, 41);
     text-align: justify;
-    font-size: 14px;
     text-indent: 10px;
+    font-size: 14px;
+    font-family: var(--font-paragrafos);
     padding-bottom: 10px;
-    font-family: var(--fonte-sub-titulo);
     line-height: 20px;
 }
 
@@ -165,15 +169,15 @@ main > #sessao-1{
     margin-top: -10px;
     padding: 10px;
     background-color: #CACACA;
-    width: 200px;
     border-radius: 5px;
+    width: 200px;
 }
 
 #h2-titulo-valor-descrição{
     color: #6b6b6b;
     font-size: 15px;
     font-weight: bold;
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-valores-preços);
     text-decoration: line-through;
 }
 
@@ -182,13 +186,13 @@ main > #sessao-1{
     color: rgb(0, 0, 0);
     font-size:1.4em ;
     font-weight: bold;
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-valores-preços);
 }
 
 #p-paragrafo-valor-descrição{
     font-size: 13px;
+    font-family: var(--font-valores-preços);
     padding-top: 1px;
-    font-family: var(--fonte-sub-valor);
 }
 
 

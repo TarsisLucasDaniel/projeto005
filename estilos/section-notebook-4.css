@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); 
+@import url(font-letras.css);
 
 :root{
     --cor1:#AAF277;
@@ -6,12 +6,15 @@
     --cor3:#2E8C14;
     --co03:#135908;
     --cor4:#054902;
-    --fonte-titulo:"Exo 2", serif;
-    --fonte-sub-titulo:"Host Grotesk", serif;
-    --font-links:"Kanit", serif;
-    --fonte-titulo-notebook: "Ysabeau SC", serif;
-    --fonte-sub-valor:"Quicksand", serif;
-    --font-valor-notebok:"Roboto Slab", serif;
+    --font-h1: "Overlock", sans-serif;
+    --font-h2: "Winky Rough", sans-serif;
+    --font-a: "Open Sans", sans-serif;
+    --font-titulos:"Inter", sans-serif;
+    --font-nome-notebooks:"Russo One", sans-serif;
+    --font-paragrafos:"Space Grotesk", sans-serif;
+    --font-valores-preços:"Roboto", sans-serif;
+    --font-nome-note-dia-dia:"Barlow", sans-serif;
+    --font-nome-moitores-gamers: "Rajdhani", sans-serif;
 }
 
 *{
@@ -20,17 +23,18 @@
 }
 
 #titulo-acer-nitro-17{
+    color: rgb(32, 32, 32);
     margin-left:-10px ;
     margin-right: -10px;
     background-color: #cacaca;
-    padding-top: 10px;
-    font-family: var(--fonte-titulo-notebook);
-    font-size: 1.5em;
-    text-align: center;
-    color: rgb(32, 32, 32);
-    text-shadow: 1px 1px 2px white;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    padding-top: 10px;
+    font-family:var(--font-nome-notebooks);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
 }
 
 #sessao-6{
@@ -48,17 +52,17 @@
     background-color: #CACACA;
     margin-left:-10px ;
     margin-right: -10px;
-    padding: 10px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 #paragrafo-caixa-descrição-notebook-acer-nitro-17{
     color: rgb(41, 41, 41);
     text-align: justify;
     font-size: 14px;
+    font-family: var(--font-paragrafos);
     text-indent: 10px;
     padding-bottom: 10px;
-    font-family: var(--fonte-sub-titulo);
     line-height: 20px;
 }
 
@@ -66,15 +70,15 @@
     margin-top: -10px;
     padding: 10px;
     background-color: #CACACA;
-    width: 200px;
     border-radius: 5px;
+    width: 200px;
 }
 
 #h2-titulo-valor-descrição-acer-nitro-17{
     color: #6b6b6b;
     font-size: 15px;
     font-weight: bold;
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-valores-preços);
     text-decoration: line-through;
 }
 
@@ -83,11 +87,11 @@
     color: rgb(0, 0, 0);
     font-size:1.4em ;
     font-weight: bold;
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-valores-preços);
 }
 
 #p-paragrafo-valor-descrição-acer-nitro-17{
     font-size: 13px;
+    font-family:var(--font-valores-preços);
     padding-top: 1px;
-    font-family: var(--fonte-sub-valor);
 }

@@ -1,4 +1,4 @@
-@import url(estilos/fonts.css); @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css);  @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css);  @import url(estilos/sessao-notebooks-dia.css);  @import url(estilos/propaganda-e-monitores.css);
+ @import url(estilos/main.css); @import url(estilos/section-notebook.css); @import url(estilos/section-notebook-2.css); @import url(estilos/section-notebook-3.css); @import url(estilos/section-notebook-4.css); @import url(estilos/section-notebook-5.css); @import url(estilos/sessao-notebooks-dia.css); @import url(estilos/propaganda-e-monitores.css); @import url(estilos/font-letras.css);
 
 :root{
     --cor1:#AAF277;
@@ -6,9 +6,15 @@
     --cor3:#2E8C14;
     --co03:#135908;
     --cor4:#054902;
-    --fonte-titulo:"Exo 2", serif;
-    --fonte-sub-titulo:"Host Grotesk", serif;
-    --font-links:"Kanit", serif;
+    --font-h1: "Overlock", sans-serif;
+    --font-h2: "Winky Rough", sans-serif;
+    --font-a: "Open Sans", sans-serif;
+    --font-titulos:"Inter", sans-serif;
+    --font-nome-notebooks:"Russo One", sans-serif;
+    --font-paragrafos:"Space Grotesk", sans-serif;
+    --font-valores-preços:"Roboto", sans-serif;
+    --font-nome-note-dia-dia:"Barlow", sans-serif;
+    --font-nome-moitores-gamers: "Rajdhani", sans-serif;
 }
 
 *{
@@ -32,12 +38,12 @@ header{
 }
 
 header > h1{
-    font-family:var(--fonte-titulo);
+    font-family:var(--font-titulos);
     color: #ffffff;
     text-align: center;
     text-shadow: 3px 3px 4px rgb(0, 0, 0);
     font-size: 3.5em;
-    font-weight: bolder;
+    font-weight: bold;
     letter-spacing: 5px;
     margin-bottom: 8px;
     cursor:  context-menu;
@@ -47,6 +53,7 @@ header > p{
     color: #e6dadad7;
     text-align: center;
     font-size: 1em;
+    font-family: var(--font-h2);
     font-weight: bold;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.829);
     letter-spacing: 1px;
@@ -110,14 +117,14 @@ nav{
 }
 
 #container-dois-links > a{
-    text-decoration: none;
     color: rgb(238, 235, 235);
+    text-decoration: none;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
-    font-family: var(--font-links);
-    margin-top: 16px;
-    font-size: 15.5px;
-    height: 15px;
     transition-duration: 0.4s;
+    font-family:var(--font-a) ;
+    font-size: 15.5px;
+    margin-top: 16px;
+    height: 15px;
 }
 
 #container-dois-links > a:hover{
