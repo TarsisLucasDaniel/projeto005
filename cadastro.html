@@ -11,46 +11,47 @@
 </head>
 <body>
   
-
-        <section id="caixa-2-cadastro">
-
-           <a href="index.html" class="btn-voltar">
-            <i class="material-symbols-outlined">arrow_back</i> 
-           </a>
-
-           <h1>Cadastro</h1>
-
-
-                <form method="post" action="">  
-                     
-                    <p> 
-                      <label for="nome_cad">Nome:</label>
-                      <br>
-                      <input id="nome_cad" name="nome_cad" required="required"  type="text" placeholder="nome" size="30" />
-                    </p>
-                     
-                    <p> 
-                      <label for="email_cad">E-mail:</label> <br>
-                      <input id="email_cad" name="email_cad" required="required" type="email" placeholder="usuario@usuario.com" size="30"/> 
-                    </p>
-                     
-                    <p> 
-                      <label for="senha_cad">Senha:</label> <br>
-                      <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234" size="30"/>
-                    </p>
-                    
-                    <p> 
-                      <input type="submit" value="Cadastrar-se"/> 
-                    </p>
-
-                  </form>
-
-              <p id="caixa-botão-entra">
-                Já tem Conta ?
-                <a id="botão-entrar" href="entrar.html" target="_self" rel="next">Entrar</a>
-              </p>
-
-        </section>
+<main>
+          <section id="container-formulario-cadastro">
+  
+             <a href="index.html" class="btn-voltar">
+              <i class="material-symbols-outlined">arrow_back</i>
+             </a>
+  
+             <h1>Cadastro</h1>
+  
+  
+                  <form method="post" action="">
+  
+                      <p>
+                        <label for="nome_cad">Nome:</label>
+                        <br>
+                        <input id="nome_cad" name="nome_cad" required="required"  type="text" placeholder="nome" size="30" />
+                      </p>
+  
+                      <p>
+                        <label for="email_cad">E-mail:</label> <br>
+                        <input id="email_cad" name="email_cad"  autocomplete="email" required="required" type="email" placeholder="usuario@usuario.com" size="30"/>
+                      </p>
+  
+                      <p>
+                        <label for="senha_cad">Senha:</label> <br>
+                        <input id="senha_cad" name="senha_cad" autocomplete="current-password" required="required" type="password" placeholder="ex. 1234" size="30"/>
+                      </p>
+  
+                      <p>
+                        <input type="submit" value="Cadastrar-se"/>
+                      </p>
+  
+                    </form>
+  
+                <p id="caixa-botão-entra">
+                  Já tem Conta ?
+                  <a id="botão-entrar" href="entrar.html" target="_self" rel="next">Entrar</a>
+                </p>
+  
+          </section>
+</main>
 
         
     

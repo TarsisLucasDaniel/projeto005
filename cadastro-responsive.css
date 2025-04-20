@@ -20,7 +20,11 @@
     }
 }
 
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:768px) and (max-width:999px){
+
+    #container-formulario-cadastro{
+        width: 400px;
+    }
 
     #link-mudar-pagina-1:hover{
         color: #8BBB23;
@@ -28,18 +32,29 @@
         box-shadow: 0px 0px 0px 1px #8BBB23;
         border: 1px solid #8BBB23;
     }
-    
-      
+
+    form{
+        width: 380px;
+    }
+       
 }
 
-@media screen and (min-width:769px) and (max-width:1400px){
+@media screen and (min-width:1000px) and (max-width:1400px){
 
-    #caixa-2-cadastro > h1{
+    #container-formulario-cadastro{
+        width: 450px;
+    }
+
+    #container-formulario-cadastro > h1{
         font-size: 2.5em;
     }
 
+    form{
+        width: 430px;
+    }
+
     #nome_cad {
-        width: 350px;
+        width: 400px;
         font-size: 1em;
         padding: 10px;
         border: 2px solid #4caf50;
@@ -71,6 +86,7 @@
     }
     
     #email_cad {
+        width: 400px;
         font-size: 1em;
         padding: 10px;
         border: 2px solid #4caf50;
@@ -102,6 +118,7 @@
     }
     
     #senha_cad {
+        width: 400px;
         font-size: 1em;
         padding: 10px;
         border: 2px solid #4caf50;
