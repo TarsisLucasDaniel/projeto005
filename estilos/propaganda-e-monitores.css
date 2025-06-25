@@ -278,6 +278,37 @@ img{
     border: 3px solid #000000;
 }
 
+.caixa-descrição-monitor-gamer-acer-vero-23-8{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-left: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-monitor-gamer-acer-vero-23-8:hover{
+    border: 3px solid #000000;
+}
+
+.caixa-descrição-monitor-gamer-acer-27-l{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-right: 10px;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.caixa-descrição-monitor-gamer-acer-27-l:hover{
+    border: 2px solid #000000;
+    
+}
+
 .h1-valor-atual{
     text-shadow: 1px 1px 0px white;
     font-size: 20px;
