@@ -82,14 +82,6 @@
     text-decoration: line-through;
 }
 
-#h1-titulo-valor-acer-predator{
-    margin-top: -6px;
-    color: rgb(0, 0, 0);
-    font-size:1.4em ;
-    font-weight: bold;
-    font-family: var(--font-valores-preços);
-}
-
 #p-paragrafo-valor-descrição-acer-predator{
     font-size: 13px;
     font-family: var(--font-valores-preços);
