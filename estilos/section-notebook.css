@@ -22,39 +22,6 @@
     margin: 0px;
 }
 
-#sessao-3{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    background-color: #cacaca;
-    border-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-}
-
-#titulo-acer-gamer-nitro{
-    color: rgb(32, 32, 32);
-    background-color: #cacaca;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-    padding-top: 10px;
-    font-family:var(--font-nome-notebooks);
-    font-size: 1.5em;
-    font-weight: normal;
-    text-align: center;
-    text-shadow: 1px 1px 2px white;
-}
-
-#caixa-descrição-notebook-acer-nitro{
-    background-color: #CACACA;
-    margin-left:-10px ;
-    margin-right: -10px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
 
 #paragrafo-caixa-descrição-notebook-acer-nitro{
     color: rgb(41, 41, 41);

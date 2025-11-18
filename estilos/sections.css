@@ -1,0 +1,98 @@
+@import url(font-letras.css);
+
+:root{
+    --cor1:#AAF277;
+    --cor2:#4CBF2C;
+    --cor3:#2E8C14;
+    --co03:#135908;
+    --cor4:#054902;
+    --font-h1: "Overlock", sans-serif;
+    --font-h2: "Winky Rough", sans-serif;
+    --font-a: "Open Sans", sans-serif;
+    --font-titulos:"Inter", sans-serif;
+    --font-nome-notebooks:"Russo One", sans-serif;
+    --font-paragrafos:"Space Grotesk", sans-serif;
+    --font-valores-preços:"Roboto", sans-serif;
+    --font-nome-note-dia-dia:"Barlow", sans-serif;
+    --font-nome-moitores-gamers: "Rajdhani", sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#section-container{
+    background-color: #DFDEDE;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.514);
+    margin-bottom: 25px;
+}
+
+#section-container #titulo-container{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-family: var(--font-titulos);
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #000000;
+    text-shadow: 2px 2px 3px rgb(255, 255, 255);
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    cursor:  context-menu;
+}
+
+#section-container #subtitulo-container{
+    color: #000000b9;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.829);
+    font-size: 1em;
+    font-weight: normal;
+    font-family: var(--font-h2);
+    padding-bottom: 25px;
+    padding-left: 13px;
+    margin-top: -4px;
+}
+
+.sections-fundo-conatainer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    background-color: #cacaca;
+    border-radius: 2px;
+    margin-left:-10px ;
+    margin-right: -10px;
+}
+
+.titulos-notebooks-container{
+    color: rgb(32, 32, 32);
+    margin-left:-10px ;
+    margin-right: -10px;
+    background-color: #cacaca;
+    padding-top: 10px;
+    font-family:var(--font-nome-notebooks);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.caixa-descrição-notebook{
+    background-color: #CACACA;
+    margin-left:-10px ;
+    margin-right: -10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
