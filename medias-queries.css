@@ -344,62 +344,17 @@
         font-size: 1.7em;
     }
 
-    .caixa-descrição-notebook > #paragrafo-caixa-descrição-notebook{
+    .caixa-descrição-notebook > .p-descricao-notebook{
         font-size: 18px;
         line-height: 1.5;
     }
 
-    .caixa-descrição-notebook > #h2-titulo-valor-descrição{
+    .caixa-descrição-notebook > .h2-valor-anterior{
         font-size: 18px;
     }
 
-    .caixa-descrição-notebook > #h1-titulo-valor-descrição{
+    .caixa-descrição-notebook > .h1-valor-atual{
         font-size: 25px;
-    }
-
-     #paragrafo-caixa-descrição-notebook-acer-nitro{
-        font-size: 18px;
-        line-height: 1.5;
-    }
-
-    #h2-titulo-valor-descrição-acer-nitro{
-        font-size: 18px;
-    }
-
-    #paragrafo-caixa-descrição-notebook-acer-predator{
-        font-size: 18px;
-        line-height: 1.5;
-    }
-
-    #h2-titulo-valor-descrição-acer-predator{
-        font-size: 18px;
-    }
-
-    #paragrafo-caixa-descrição-notebook-acer-nitro-16{
-        font-size: 18px;
-        line-height: 1.5;
-    }
-
-    #h2-titulo-valor-descrição-acer-nitro-16{
-        font-size: 18px;
-    }
-
-    #paragrafo-caixa-descrição-notebook-acer-nitro-17{
-        font-size: 18px;
-        line-height: 1.5;
-    }
-
-    #h2-titulo-valor-descrição-acer-nitro-17{
-        font-size: 18px;
-    }
-
-   #paragrafo-caixa-descrição-notebook-predator-Triton{
-        font-size: 18px;
-        line-height: 1.5;
-    }
-
-    #h2-titulo-valor-descrição-predator-Triton{
-        font-size: 18px;
     }
 
     #sessao-notebooks-dia-a-dia{
