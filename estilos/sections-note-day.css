@@ -169,61 +169,7 @@ p.descrição-notebooks-dia-dia > strong{
     padding-top: 1px;
 }
 
-#sessao-1-notebooks-dia-dia{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    background-color: #F5F5F5;
-    border-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-}
-
-#sessao-2-notebooks-dia-dia{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    background-color: #F5F5F5;
-    border-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-}
-#sessao-3-notebooks-dia-dia{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    background-color: #F5F5F5;
-    border-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-}
-
-#sessao-4-notebooks-dia-dia{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    background-color: #F5F5F5;
-    border-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-}
-
-#sessao-5-notebooks-dia-dia{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding: 10px;
-    background-color: #F5F5F5;
-    border-radius: 2px;
-    margin-left:-10px ;
-    margin-right: -10px;
-}
-
-#sessao-6-notebooks-dia-dia{
+.sections-note-imagens{
     display: flex;
     justify-content: space-between;
     position: relative;
