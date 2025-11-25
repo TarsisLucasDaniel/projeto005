@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:481px) and (max-width:869px){
     body{
         font-family: Arial, Helvetica, sans-serif;
         background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
@@ -195,7 +195,7 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width:1400px) {
+@media screen and (min-width:870px) and (max-width:1299px){
 
     body{
         font-family: Arial, Helvetica, sans-serif;
@@ -355,6 +355,397 @@
 
     .caixa-descrição-notebook > .h1-valor-atual{
         font-size: 25px;
+    }
+
+    #sessao-notebooks-dia-a-dia{
+        margin-left: -10px;
+        margin-right: -10px;
+        border: 1px solid black;
+    }
+
+    #sessao-notebooks-dia-a-dia > #sessao-titulo-note-dia-dia{
+        font-size: 2.7em;
+        letter-spacing: 1px;
+    }
+
+    #sessao-notebooks-dia-a-dia > #sessao-sub-titulo-note-dia-dia{
+        font-size: 1.3em;
+    }
+
+    #sessao-notebooks-dia-a-dia > .titulos-notebooks-dia-dia{
+        font-size: 1.5em;
+        color: black;
+        text-shadow: 1px 1px 1px green;
+    }
+
+    #sessao-notebooks-dia-a-dia > .titulos-modelos{
+        font-size: 1.1em;
+        text-shadow: 1px 1px 1px white;
+    }
+
+    .caixa-descrição-notebooks-dia-dia > .descrição-notebooks-dia-dia{
+        font-size: 1.1em;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia{
+        width: 240px;
+        margin-left: 11px;
+        padding-top: 5px;
+        padding-left: 8px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .h2-titulo-valor-descrição-note-dia-a-dia{
+        font-size: 20px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .h1-titulo-valor-acer-dia-a-dia{
+        font-size: 26px;
+    }
+
+    .caixa-valor-descrição-notebooks-dia-a-dia > .p-paragrafo-valor-descrição-dia-a-dia{
+        font-size: 16px;
+    }
+
+    #propaganda-numero-um > #titulo-propagando-um{
+        font-size: 3.4em;
+    }
+
+    #propaganda-numero-um > #sub-titulo-propaganda-um{
+        font-size: 1.7em;
+        margin-top: -7px;
+        text-indent: 34px;
+    }
+
+    #caixa-propaganda-monitores > #caixa-propaganda-monitores-titulo-h1{
+        font-size: 3em;
+    }
+
+    #caixa-propaganda-monitores > #caixa-propaganda-monitores-sub-titulo-h2{
+        font-size: 1.4em;
+    }
+
+    #container-monitores-gamers > .titulo-monitores-gamers{
+        font-size: 2.5em;
+        margin-left: 20px;
+    }
+
+    #container-monitores-gamers > .sub-titulo-monitores-gamers{
+        font-size: 1.3em;
+        margin-left: 20px;
+    }
+
+    .nome-monitor{
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+
+    .modelo-notebook{
+        font-size: 1.1em;
+    }
+
+    .caixa-detalhes-monitores-gamers{
+        display: block;
+        margin-top: 10px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        padding-right: 7px;
+    }
+
+    .caixa-detalhes-monitores-gamers > .paragrafos-elementos-monitor{
+        color: rgb(0, 0, 0);
+        font-size: 1em;
+        font-weight: 400;
+        font-family:var(--font-valores-preços);
+        text-align: justify;
+        line-height: 10px;
+    }
+
+    .paragrafos-elementos-monitor > strong{
+        color: black;
+        font-weight: 600;
+    }
+
+    .caixa-descrição-monitor-predator{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-nitro{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-nitro-27{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-nitro-31-5{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-Monitor-Gamer-Predator-57-1{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-Monitor-Gamer-Acer-Nitro-23-8{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-gamer-acer-vero-23-8{
+        width: 500px;
+        margin-left: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .caixa-descrição-monitor-gamer-acer-27-l{
+        width: 500px;
+        margin-right: 50px;
+        border: 3px solid #A0EC6F;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    #img-z{
+        border-radius: 50%;
+    }
+
+    .caixa-valores-monitor{
+        display: block;
+        text-align: justify;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    }
+
+    .caixa-valores-monitor > .h2-valor-anterior{
+           font-size: 1.3em;
+    }
+
+    .caixa-valores-monitor > .h1-valor-atual{
+        font-size: 1.8em;
+        margin-top: -5px;
+    }
+
+    .caixa-valores-monitor > .p-descontos{
+        font-size: 1em; 
+    }
+
+}
+
+@media screen and (min-width:1300px) {
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(fundos-imagens/gettyimages-1178169452-640x640.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    main{
+        width: 1250px;
+    }
+
+    .sections-fundo-conatainer{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #cacaca;
+        border-radius: 2px;
+        margin-left:-10px ;
+        margin-right: -10px;
+    } 
+
+    #container-links-redes-socias> a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 1.7em;
+        transition: 0.5s;
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+
+    #container-links-redes-socias > a:hover{
+        transform: translate(-4px, -4px);
+        color: rgb(30, 255, 0);    
+    }
+
+    header > h1{
+        font-size: 5em;
+    } 
+
+    header > p{
+        font-size: 20px;
+    }
+
+    .barra-pesquisa {
+        position: relative;
+        margin-left: 60px;
+        width: 100%;
+        max-width: 450px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .barra-pesquisa input {
+        width: 100%;
+        max-width: 400px;
+        padding: 12px 16px 12px 40px;
+        font-size: 16px;
+        border: 2px solid #2e7d32; 
+        border-radius: 25px;
+        outline: none;
+        background: #e8f5e9; 
+        color: #1b5e20;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 64, 0, 0.15);
+    }
+
+    .barra-pesquisa input::placeholder {
+        color: #388e3c;
+        opacity: 0.8;
+    }
+
+    .barra-pesquisa input:focus::placeholder {
+        visibility: hidden;
+    }
+
+    .barra-pesquisa input:hover {
+        background: #d0f0d4;
+        border-color: #43a047;
+    }
+
+    .barra-pesquisa input:focus {
+        border-color: #66bb6a;
+        box-shadow: 0 0 0 4px rgba(102, 187, 106, 0.3);
+        background: #ffffff;
+    }
+
+    .barra-pesquisa i {
+        position: absolute;
+        left: 15px;
+        color: #388e3c;
+        font-size: 16px;
+        pointer-events: none;
+    }
+
+    nav > #container-links-redes-socias {
+        display: flex;
+    }
+
+    #container-links-redes-socias > a{
+        margin: 10px;
+    }
+
+    nav > #container-dois-links{
+        display: flex;
+        margin-right: -2px;
+    }
+
+    #container-dois-links > a{
+        margin: 5px;
+        font-size: 1.1em;
+        font-weight: normal;
+        color: #ffffff; 
+        text-decoration: none;
+        position: relative;
+        padding: 8px 5px;
+        border-radius: 6px;
+        transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    #container-dois-links > a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0%;
+        height: 2px;
+        background-color: #00e676; 
+        transition: width 0.3s ease;
+    }
+    
+    #container-dois-links > a:hover {
+        color: #00e676; 
+        background-color: rgba(0, 230, 118, 0.2); 
+        transform: translateY(-3px); 
+    }
+    
+    #container-dois-links > a:hover::after {
+        width: 100%; 
+    }
+
+    #sessao-propaganda-0{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    #section-container > #titulo-container{
+        font-size: 2.3em;
+    }
+
+    #section-container > #subtitulo-container{
+        font-size: 1.2em;
+    }
+
+    #section-container > .titulos-notebooks-container{
+        font-size: 1.7em;
+    }
+
+    .caixa-descrição-notebook > .p-descricao-notebook{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .caixa-valor-descrição-notebook{
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+        border: 2px solid #0000009f;     
+        border-left-width: 8px;         
+        border-left-color: #55b56a; 
+        transition: all 0.5s ease;
+        cursor: pointer;  
+    }
+
+    .caixa-valor-descrição-notebook:hover{
+        transform: scale(1.03); 
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); 
+        border-color: #55b56a; 
+        border-left-width: 15px;  
+    }
+
+    .h2-valor-anterior{
+        font-size: 20px;
+    }
+
+    .h1-valor-atual{
+        font-size: 30px;
+    }
+
+    .p-parcelas{
+        font-size: 15px;
+       
     }
 
     #sessao-notebooks-dia-a-dia{
