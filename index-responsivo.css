@@ -545,6 +545,10 @@
         font-size: 1em; 
     }
 
+    #fundo-container-options{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:1300px) {
@@ -937,6 +941,10 @@
         font-size: 1em; 
     }
 
+    #fundo-container-options{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:1920px) {
@@ -944,6 +952,10 @@
         font-family: sans-serif;
         background-image: none;
         background-color: #054902;
+    }
+
+    #fundo-container-options{
+        display: none;
     }
 }
 
