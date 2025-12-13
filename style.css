@@ -83,7 +83,7 @@ nav{
     color: rgb(255, 255, 255);
     font-size: 1.2em;
     transition: 0.5s;
-    margin: 5px;
+    margin: 7px;
 }
 
 #container-links-redes-socias > a:hover{
@@ -102,7 +102,7 @@ nav{
     text-decoration: none;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.664);
     transition-duration: 0.4s;
-    font-family:var(--font-a) ;
+    font-family:var(--font-paragrafos);
     font-size: 15.5px;
     margin: 5px;
 }
