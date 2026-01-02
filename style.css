@@ -121,3 +121,7 @@ nav{
 .caixa-detalhes-monitores-gamers{
     display: none;
 }
+
+a.ir{
+    text-decoration: none;
+}
