@@ -171,7 +171,8 @@ p.descrição-notebooks-dia-dia > strong{
 
 .sections-note-imagens{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     position: relative;
     padding: 10px;
     background-color: #F5F5F5;
@@ -179,3 +180,8 @@ p.descrição-notebooks-dia-dia > strong{
     margin-left:-10px ;
     margin-right: -10px;
 }
+
+.sections-note-imagens > .caixa-img-2 {
+    display: none;
+}
+
